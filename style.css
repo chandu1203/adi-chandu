@@ -1,0 +1,28 @@
+.parent {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.parent>div{
+   margin:1%;
+  padding:2%;
+  border:1px solid blue;
+}
+ /* div{
+   margin-top:5px;
+   border:1px solid blue;
+
+ } */
+ .childone{
+   width:10%;
+   height:10%;
+   padding:2%;
+   border:10px solid blue;
+   margin:2%;
+ }
+ /* .childtwo{
+   width:3%;
+   padding:2%;
+   border:1px solid red;
+   margin:2%;
+ } */
